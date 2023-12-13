@@ -60,7 +60,7 @@
                     <div id="overlay"></div>
                     <div class="fullscreen-bg">
                         <video autoplay muted loop playsinline class="fullscreen-bg__video">
-                            <source src="{{asset('home/static/temp/video/video12.mp4')}}" type="video/mp4">
+                            <source src="{{asset('home/static/temp/video/video3.mp4')}}" type="video/mp4">
                             Your browser does not support HTML5 video.
                         </video>
                     </div>
@@ -104,11 +104,12 @@
                                 <div class="elementor-element elementor-element-ca77d0c ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="ca77d0c" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
                                         <p>
-                                            An exchange-traded fund is a type of investment fund and exchange-traded product that is traded on stock exchanges.
+                                            An exchange-traded fund (ETF) is a type of investment fund and exchange-traded product traded on stock exchanges.
                                         </p>
                                         <p>
-                                            ETFs are similar in many ways to mutual funds, except that ETFs are bought and sold throughout the day on stock exchanges. ETFs are created by large money managers which bundle the underlying instruments of the fund together. After a series of regulatory steps, an ETF can be offered for sale to the public and can be purchased through Quantum Finance.
+                                            ETFs share many similarities with mutual funds, with the key distinction that ETFs are bought and sold throughout the day on stock exchanges. Created by large money managers, ETFs bundle the underlying instruments of the fund together. Following a series of regulatory procedures, an ETF becomes available for public sale and can be acquired through Quantum Finance.
                                         </p>
+
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-2e76fa3 elementor-widget elementor-widget-button" data-id="2e76fa3" data-element_type="widget" data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="button.default">

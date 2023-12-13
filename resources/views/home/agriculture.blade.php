@@ -60,7 +60,7 @@
                     <div id="overlay"></div>
                     <div class="fullscreen-bg">
                         <video autoplay muted loop playsinline class="fullscreen-bg__video">
-                            <source src="{{asset('home/static/temp/video/video16.mp4')}}" type="video/mp4">
+                            <source src="{{asset('home/static/temp/video/video3.mp4')}}" type="video/mp4">
                             Your browser does not support HTML5 video.
                         </video>
                     </div>
@@ -104,11 +104,12 @@
                                 <div class="elementor-element elementor-element-ca77d0c ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="ca77d0c" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
                                         <p>
-                                            An agricultural fund is a type of investment fund and agricultural product that is traded in exchange for money.
+                                            An agricultural fund is a form of investment fund involving agricultural products that are traded in exchange for monetary value.
                                         </p>
                                         <p>
-                                            Agricultural fund are similar in many ways to mutual funds. agricultural fund are created by large money managers which bundle the underlying instruments of the fund together. After a series of regulatory steps, an agricultural fund can be offered for sale to the public and can be purchased through {{$siteName}}.
+                                            Agricultural funds share many similarities with mutual funds. They are created by prominent money managers who bundle together the underlying instruments of the fund. Following a series of regulatory procedures, an agricultural fund becomes available for public sale and can be acquired through {{$siteName}}.
                                         </p>
+
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-2e76fa3 elementor-widget elementor-widget-button" data-id="2e76fa3" data-element_type="widget" data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="button.default">
@@ -129,7 +130,7 @@
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <div class="elementor-element elementor-element-80935ab ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="80935ab" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <img width="1600" height="1024" src="{{asset('home/static/temp/wp-content/uploads/sites/56/2021/08/stocks.jpg')}}" class="attachment-full size-full" alt="" loading="lazy" />
+                                        <img width="1600" height="1024" src="{{asset('home/static/temp/wp-content/uploads/sites/56/2021/08/agriculture.jpg')}}" class="attachment-full size-full" alt="" loading="lazy" />
                                     </div>
                                 </div>
                             </div>

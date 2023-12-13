@@ -60,7 +60,7 @@
                     <div id="overlay"></div>
                     <div class="fullscreen-bg">
                         <video autoplay muted loop playsinline class="fullscreen-bg__video">
-                            <source src="{{asset('home/static/temp/video/video12.mp4')}}" type="video/mp4">
+                            <source src="{{asset('home/static/temp/video/video3.mp4')}}" type="video/mp4">
                             Your browser does not support HTML5 video.
                         </video>
                     </div>
@@ -97,16 +97,19 @@
                                 </div>
                                 <div class="elementor-element elementor-element-9193c26 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="9193c26" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Start Investing Comfortably In Gold
+                                        <h2 class="elementor-heading-title elementor-size-default">Embark on Comfortable Gold Investments
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-ca77d0c ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="ca77d0c" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Of all the precious metals, gold is the most popular as an investment. Investors generally buy gold as a way of diversifying their portfolio, especially through the use of futures contracts and derivatives.</p>
                                         <p>
-                                            The gold market is subject to speculation and volatility as are other markets. Compared to other precious metals used for investment, gold has been the most effective safe haven across a number of countries. Gold is a commodity that trades based on supply and demand. The interplay between supply and demand ultimately determines what the spot price of gold is at any given time. At {{$siteName}} we guide you through the whole investment process from a beginner to an expert level.
+                                            Among all precious metals, gold stands out as the most popular investment choice. Investors often acquire gold to diversify their portfolio, leveraging futures contracts and derivatives for this purpose.
                                         </p>
+                                        <p>
+                                            The gold market is susceptible to speculation and volatility, much like other markets. In comparison to other precious metals utilized for investment, gold has proven to be the most effective safe haven in numerous countries. Gold functions as a commodity traded based on supply and demand, with the interplay between these factors determining the spot price of gold at any given time. At {{$siteName}}, we provide guidance throughout the entire investment process, catering to both beginners and experts.
+                                        </p>
+
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-2e76fa3 elementor-widget elementor-widget-button" data-id="2e76fa3" data-element_type="widget" data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="button.default">

@@ -60,7 +60,7 @@
                     <div id="overlay"></div>
                     <div class="fullscreen-bg">
                         <video autoplay muted loop playsinline class="fullscreen-bg__video">
-                            <source src="{{asset('home/static/temp/video/video12.mp4')}}" type="video/mp4">
+                            <source src="{{asset('home/static/temp/video/video3.mp4')}}" type="video/mp4">
                             Your browser does not support HTML5 video.
                         </video>
                     </div>

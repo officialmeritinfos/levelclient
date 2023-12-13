@@ -60,7 +60,7 @@
                 <div id="overlay"></div>
                 <div class="fullscreen-bg">
                     <video autoplay muted loop playsinline class="fullscreen-bg__video">
-                        <source src="{{asset('home/static/temp/video/video5.mp4')}}" type="video/mp4">
+                        <source src="{{asset('home/static/temp/video/video3.mp4')}}" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
@@ -95,26 +95,26 @@
                             </div>
                             <div class="elementor-element elementor-element-9193c26 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="9193c26" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h2 class="elementor-heading-title elementor-size-default">For a secure and planned future
+                                    <h2 class="elementor-heading-title elementor-size-default">For a Future that's Secure and Well-Planned
                                     </h2>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-ca77d0c ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="ca77d0c" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p>{{$siteName}} is one of the largest and most experienced international private equity firms. We have an established team of investment professionals, who are focused mainly on investment.</p>
+                                    <p>{{$siteName}} stands as one of the largest and most seasoned international private equity firms. Our accomplished team of investment professionals is primarily dedicated to strategic investments.</p>
                                     <p>
-                                        {{$siteName}} is run by a team of trading experts who generate profits by buying and selling currencies, stocks, options and commodities on the foreign exchange market. We employ a variety of trading techniques to achieve the set goals for the client.
+                                        {{$siteName}} is managed by a team of trading experts specializing in generating profits through currency, stocks, options, and commodities trading on the foreign exchange market. We employ a variety of trading techniques to meet client goals.
                                     </p>
                                     <p>
-                                        {{$siteName}} consists a team of financial market professionals assembled specifically in order to provide the best possible trading conditions to its customers. Our specialists have been involved in the development of technical specification for designing an up-to-date platform that is suitable for both beginners and experienced traders.
+                                        The {{$siteName}} team comprises financial market professionals assembled to provide the best possible trading conditions. Our specialists played a key role in developing technical specifications for a modern platform suitable for both beginners and experienced traders.
                                     </p>
                                     <p>
-                                        As long as we have existed we have been trying to leverage lower risk and higher profits for our customers through innovative and insightful analysis, information dispersion, and expert assistance.
-                                        Our team of professionals is composed of experienced and skilled experts and professionals, who bring a diverse and in depth knowledge to the entire investing process.
+                                        Throughout our existence, we've aimed to balance lower risk and higher profits for our customers through innovative analysis, information dispersion, and expert assistance. Our team includes experienced professionals with diverse and in-depth knowledge, enhancing the entire investing process.
                                     </p>
                                     <p>
-                                        Our multi-asset investment approach is aimed at what matters helping you reach your desired outcomes. Portfolio management is the heart of what we do. From our current research studying the market, we are expecting to trigger a long term investment trading strategy which would give our new members guaranteed return on investment for the stipulated time.
+                                        Our multi-asset investment approach focuses on helping you achieve your desired outcomes. Portfolio management is at the core of our services. Based on our current market research, we anticipate implementing a long-term investment trading strategy that ensures guaranteed returns for our new members within the stipulated time.
                                     </p>
+
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-2e76fa3 elementor-widget elementor-widget-button" data-id="2e76fa3" data-element_type="widget" data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="button.default">
@@ -156,13 +156,13 @@
                             </div>
                             <div class="elementor-element elementor-element-6bea625 ob-harakiri-inherit elementor-invisible elementor-widget elementor-widget-heading" data-id="6bea625" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h2 class="elementor-heading-title elementor-size-default">Its all about your Future
+                                    <h2 class="elementor-heading-title elementor-size-default">It's All About Your Future
                                     </h2>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-f4d2de9 elementor-widget__width-initial ob-harakiri-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="f4d2de9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p>We focus on comprehensive financial advice and investment services
+                                    <p>Our emphasis is on providing comprehensive financial advice and investment services.
                                     </p>
                                 </div>
                             </div>
@@ -180,7 +180,7 @@
                                                                 <h3 class="elementskit-info-box-title">
                                                                     Vision
                                                                 </h3>
-                                                                <p>In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service and acting with integrity.
+                                                                <p>In a rapidly evolving and intricately connected global economy, our success hinges on our unwavering commitment to core principles: delivering exceptional client service and conducting ourselves with integrity.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -201,7 +201,7 @@
                                                                 <h3 class="elementskit-info-box-title">
                                                                     Mission
                                                                 </h3>
-                                                                <p>Our mission is to generate world-class investment returns over the long term. We aspire to do so in a way that makes our partners and portfolio companies proud, as we build a unique, global company.
+                                                                <p>Our mission is to produce world-class investment returns over the long term. We aim to achieve this in a manner that instills pride in our partners and portfolio companies, contributing to the development of a distinctive, global enterprise.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -222,7 +222,7 @@
                                                                 <h3 class="elementskit-info-box-title">
                                                                     Guarantee
                                                                 </h3>
-                                                                <p>We are here because we are passionate about open, transparent markets and aim to be a major driving force in widespread adoption, we are the first and the best in investment management.
+                                                                <p>Our presence is driven by a passion for open, transparent markets, and we aspire to play a pivotal role in fostering widespread adoption. As pioneers, we take pride in being the first and the best in investment management.
                                                                 </p>
                                                             </div>
                                                         </div>

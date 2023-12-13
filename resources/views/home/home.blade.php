@@ -75,7 +75,7 @@
                         <div class="elementor-widget-wrap elementor-element-populated" style="z-index: 3;">
                             <div class="elementor-element elementor-element-aed773a ob-harakiri-inherit elementor-invisible elementor-widget elementor-widget-heading" data-id="aed773a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h1 class="elementor-heading-title elementor-size-default">International Private Equity Company
+                                    <h1 class="elementor-heading-title elementor-size-default">Global Private Equity Firm
                                     </h1>
                                 </div>
                             </div>
@@ -141,7 +141,7 @@
                                             </div>
                                             <div class="box-body">
                                                 <h3 class="elementskit-info-box-title">
-                                                    Membership Registration
+                                                    Enrollment for Membership
                                                 </h3>
                                                 <p>First you need to become a member of {{$siteName}} by registering.
                                                 </p>
@@ -168,7 +168,7 @@
                                             </div>
                                             <div class="box-body">
                                                 <h3 class="elementskit-info-box-title">
-                                                    Choose Plan
+                                                    Select a Plan
                                                 </h3>
                                                 <p>Select any of our unique financial earning plans that best works for you.
                                                 </p>
@@ -195,9 +195,10 @@
                                             </div>
                                             <div class="box-body">
                                                 <h3 class="elementskit-info-box-title">
-                                                    Passive Income
+                                                    Earnings on Autopilot
                                                 </h3>
-                                                <p>Start earning passively and get paid immediately you request for a withdrawal.
+                                                <p>
+                                                    Commence passive earnings and receive immediate payments upon requesting a withdrawal.
                                                 </p>
                                             </div>
                                         </div>
@@ -224,7 +225,8 @@
                                             </div>
                                             <div class="elementor-element elementor-element-d056df1 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="d056df1" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Our common Purpose is Creating opportunities to rise.
+                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                        Creating opportunities to rise is our shared objective
                                                     </h2>
                                                 </div>
                                             </div>
@@ -258,11 +260,12 @@
                                                             <div class="elementskit-box-body ekit-image-box-body">
                                                                 <div class="elementskit-box-content ekit-image-box-body-inner">
                                                                     <h3 class="elementskit-info-box-title">
-                                                                        <a >Explore With Us
+                                                                        <a >Join us on an exploration.
                                                                         </a>
                                                                     </h3>
                                                                     <div class="elementskit-box-style-content">
-                                                                        Seize the opportunity to grow your capital in the stock market by copying the trades of top preforming traders in our investment programme
+
+                                                                        Capture the chance to enhance your capital in the stock market by mirroring the trades of top-performing traders in our investment program.Investment Management
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -280,11 +283,11 @@
                                                             <div class="elementskit-box-body ekit-image-box-body">
                                                                 <div class="elementskit-box-content ekit-image-box-body-inner">
                                                                     <h3 class="elementskit-info-box-title">
-                                                                        <a >High Frequency Trading
+                                                                        <a >Trading at High Frequencies
                                                                         </a>
                                                                     </h3>
                                                                     <div class="elementskit-box-style-content">
-                                                                        Global institutions, leading hedge funds and industry innovators turn to Century21 company's trading advice and market-making services.
+                                                                        Prominent hedge funds, global institutions, and industry trailblazers rely on Century21 company for trading guidance and market-making services.
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -306,11 +309,11 @@
                                                             <div class="elementskit-box-body ekit-image-box-body">
                                                                 <div class="elementskit-box-content ekit-image-box-body-inner">
                                                                     <h3 class="elementskit-info-box-title">
-                                                                        <a >Investment Management
+                                                                        <a >Managing Investments
                                                                         </a>
                                                                     </h3>
                                                                     <div class="elementskit-box-style-content">
-                                                                        We deliver active stock investment strategies across public and private markets and custom solutions to institutional and individual investors.
+                                                                        We provide dynamic stock investment strategies spanning public and private markets, along with tailored solutions for both institutional and individual investors.
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -328,11 +331,11 @@
                                                             <div class="elementskit-box-body ekit-image-box-body">
                                                                 <div class="elementskit-box-content ekit-image-box-body-inner">
                                                                     <h3 class="elementskit-info-box-title">
-                                                                        <a >Wealth Management
+                                                                        <a >Managing Wealth
                                                                         </a>
                                                                     </h3>
                                                                     <div class="elementskit-box-style-content">
-                                                                        We help people, businesses and institutions build, preserve and manage wealth so they can pursue their financial goals.
+                                                                        We assist individuals, businesses, and institutions in constructing, safeguarding, and overseeing wealth, enabling them to pursue their financial aspirations.
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -360,7 +363,7 @@
                             </div>
                             <div class="elementor-element elementor-element-49b3204 ob-harakiri-inherit elementor-invisible elementor-widget elementor-widget-heading" data-id="49b3204" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h2 class="elementor-heading-title elementor-size-default">Smart Investing with Smart Ideas
+                                    <h2 class="elementor-heading-title elementor-size-default">Investing Smartly with Intelligent Concepts
                                     </h2>
                                 </div>
                             </div>
@@ -498,17 +501,17 @@
                             </div>
                             <div class="elementor-element elementor-element-4b8e612 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="4b8e612" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h2 class="elementor-heading-title elementor-size-default">Start a Good Plan
+                                    <h2 class="elementor-heading-title elementor-size-default">Initiate a Solid Plan
                                     </h2>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-be19fe9 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="be19fe9" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
                                     <p>
-                                        Think about what you want, make the best out of it by starting with us today. we are always available to make the right choice for you.
+                                        Consider your desires, and embark on the journey to maximize them by choosing to start with us today. We are consistently available to guide you in making the optimal decisions.
                                     </p>
                                     <p>
-                                        Our experts are the best in everything. They are well trained in forex, crypto-currency trading and also in giving investment advices.
+                                        Our experts excel in every aspect. They undergo thorough training in forex, cryptocurrency trading, and providing investment advice.
                                     </p>
                                 </div>
                             </div>
@@ -607,13 +610,13 @@
                             </div>
                             <div class="elementor-element elementor-element-9c5569d ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="9c5569d" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h2 class="elementor-heading-title elementor-size-default">Let Us Work For You.
+                                    <h2 class="elementor-heading-title elementor-size-default">Allow Us to Serve You.
                                     </h2>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-39d5047 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="39d5047" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p>We help individuals, businesses and institutions build, preserve and manage wealth so they can pursue their financial goals.
+                                    <p>We assist individuals, businesses, and institutions in constructing, safeguarding, and overseeing wealth, empowering them to pursue their financial goals.
                                     </p>
                                 </div>
                             </div>

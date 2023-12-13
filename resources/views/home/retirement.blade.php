@@ -60,7 +60,7 @@
                     <div id="overlay"></div>
                     <div class="fullscreen-bg">
                         <video autoplay muted loop playsinline class="fullscreen-bg__video">
-                            <source src="{{asset('home/static/temp/video/video12.mp4')}}" type="video/mp4">
+                            <source src="{{asset('home/static/temp/video/video3.mp4')}}" type="video/mp4">
                             Your browser does not support HTML5 video.
                         </video>
                     </div>
@@ -97,18 +97,19 @@
                                 </div>
                                 <div class="elementor-element elementor-element-9193c26 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="9193c26" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Start Now To Secure Your Future
+                                        <h2 class="elementor-heading-title elementor-size-default">Commence Now to Safeguard Your Future
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-ca77d0c ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="ca77d0c" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
                                         <p>
-                                            This include the financial strategies of saving, investment, and ultimately distribution of money meant to sustain one's self during retirement.
+                                            This involves financial strategies such as saving, investing, and ultimately distributing money to sustain oneself during retirement.
                                         </p>
                                         <p>
-                                            The emphasis one puts on retirement planning changes throughout different life stages. Early in a person's working life, retirement planning is about setting aside enough money for retirement. During the middle of your career, it might also include setting specific income or asset targets and taking the steps to achieve them. Once you reach retirement age, you go from accumulating assets to what planners call the distribution phase. You’re no longer paying in; instead, your decades of saving with {{$siteName}} are paying out.
+                                            The emphasis on retirement planning evolves through different life stages. In the early stages of one's career, it involves setting aside enough money for retirement. In the middle of your career, it may also include establishing specific income or asset targets and taking steps to achieve them. Upon reaching retirement age, you transition from accumulating assets to what planners refer to as the distribution phase. You are no longer contributing; instead, the savings accumulated over decades with {{$siteName}} are now paying out.
                                         </p>
+
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-2e76fa3 elementor-widget elementor-widget-button" data-id="2e76fa3" data-element_type="widget" data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="button.default">

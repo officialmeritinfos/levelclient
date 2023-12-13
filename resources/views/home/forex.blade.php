@@ -60,7 +60,7 @@
                     <div id="overlay"></div>
                     <div class="fullscreen-bg">
                         <video autoplay muted loop playsinline class="fullscreen-bg__video">
-                            <source src="{{asset('home/static/temp/video/video12.mp4')}}" type="video/mp4">
+                            <source src="{{asset('home/static/temp/video/video3.mp4')}}" type="video/mp4">
                             Your browser does not support HTML5 video.
                         </video>
                     </div>
@@ -97,18 +97,19 @@
                                 </div>
                                 <div class="elementor-element elementor-element-9193c26 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="9193c26" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Invest In The Forex Market The Right Way
+                                        <h2 class="elementor-heading-title elementor-size-default">Invest in the Forex Market Effectively
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-ca77d0c ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="ca77d0c" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
                                         <p>
-                                            Forex is one of those areas that most people feel is complicated. In reality, it's like many other forms of investment where a little knowledge can be dangerous. The good news for people out there looking to invest in forex is that we at {{$siteName}} are here to help.
+                                            Forex often seems complex to many, akin to various forms of investment where a little knowledge can be risky. The reassuring news for those considering forex investment is that {{$siteName}} is here to provide assistance.
                                         </p>
                                         <p>
-                                            We have a group of experienced traders and market analysts. After years of professional trading we have joined our skills, knowledge and talents in the effort to bring a new reliable investment opportunity. As the result of careful planning and joint work emerged Forex Investment, a reliable long-term investment project, that offers great returns along with professional approach and security.
+                                            Our team comprises seasoned traders and market analysts who have pooled their skills, knowledge, and talents to introduce a new, dependable investment opportunity. After years of professional trading, we've created Forex Investment—a reliable, long-term investment project that offers substantial returns, coupled with a professional approach and enhanced security.
                                         </p>
+
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-2e76fa3 elementor-widget elementor-widget-button" data-id="2e76fa3" data-element_type="widget" data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="button.default">

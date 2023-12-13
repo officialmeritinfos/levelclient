@@ -60,7 +60,7 @@
                     <div id="overlay"></div>
                     <div class="fullscreen-bg">
                         <video autoplay muted loop playsinline class="fullscreen-bg__video">
-                            <source src="{{asset('home/static/temp/video/video12.mp4')}}" type="video/mp4">
+                            <source src="{{asset('home/static/temp/video/video3.mp4')}}" type="video/mp4">
                             Your browser does not support HTML5 video.
                         </video>
                     </div>
@@ -105,13 +105,12 @@
                 <div class="elementor-element elementor-element-ca77d0c ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="ca77d0c" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
                         <p>
-                            NFT or non-fungible tokens refer to unique assets, like an irreplaceable doge meme or an autographed tweet.
-                            NFTs could be anything from an art piece, domain name, a tweet, music piece, a trading card or just about any digital good that has a value attached to it.
+                            NFTs, or non-fungible tokens, represent unique assets such as an irreplaceable Doge meme or an autographed tweet. NFTs can take various forms, including art pieces, domain names, tweets, music compositions, trading cards, or any digital good with an attached value.
                         </p>
                         <p>
-                            While NFTs have been around since 2014, their popularity is fast gaining momentum as the new-age way to buy and sell digital artwork. In fact, since 2017, over $174 million have been spent on NFTs.
-                            Managing NFTs is similar to managing cryptocurrencies and may be done by mobile or online app. It’s possible to accomplish this on a smartphone using cryptocurrency exchanges.
+                            Despite being around since 2014, NFTs have recently gained significant popularity as the modern way to buy and sell digital artwork. In fact, since 2017, over $174 million has been spent on NFTs. Managing NFTs is akin to handling cryptocurrencies and can be done through mobile or online apps. Smartphone users can easily accomplish this using cryptocurrency exchanges.
                         </p>
+
                     </div>
                 </div>
                 <div class="elementor-element elementor-element-2e76fa3 elementor-widget elementor-widget-button" data-id="2e76fa3" data-element_type="widget" data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="button.default">

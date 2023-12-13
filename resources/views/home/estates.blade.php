@@ -60,7 +60,7 @@
                     <div id="overlay"></div>
                     <div class="fullscreen-bg">
                         <video autoplay muted loop playsinline class="fullscreen-bg__video">
-                            <source src="{{asset('home/static/temp/video/video12.mp4')}}" type="video/mp4">
+                            <source src="{{asset('home/static/temp/video/video3.mp4')}}" type="video/mp4">
                             Your browser does not support HTML5 video.
                         </video>
                     </div>
@@ -97,16 +97,19 @@
                                 </div>
                                 <div class="elementor-element elementor-element-9193c26 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="9193c26" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Create Passive Income Through Real Estate
+                                        <h2 class="elementor-heading-title elementor-size-default">Generate Passive Income with Real Estate
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-ca77d0c ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="ca77d0c" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Real estate investing involves the purchase, ownership, management, rental and/or sale of real estate for profit.</p>
                                         <p>
-                                            Real estate is an asset form with liquidity relative to other investments, it is also capital intensive and is highly cash flow dependent. If these factors are not well understood and managed by the investor, real estate becomes a risky investment. This is why investing with Quantum Finance is the best option, we don't only make real estate investment cost effective, every risk involved is also curtailed leaving you with guaranteed profits.
+                                            Real estate investing encompasses the acquisition, ownership, management, rental, and/or sale of real estate for profit.
                                         </p>
+                                        <p>
+                                            Real estate serves as an asset with liquidity compared to other investments, yet it is capital-intensive and heavily dependent on cash flow. Without a clear understanding and effective management of these factors, real estate can become a risky investment. That's where investing with Quantum Finance stands out as the optimal choice. We not only make real estate investment cost-effective but also mitigate every associated risk, ensuring you are left with guaranteed profits.
+                                        </p>
+
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-2e76fa3 elementor-widget elementor-widget-button" data-id="2e76fa3" data-element_type="widget" data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="button.default">
