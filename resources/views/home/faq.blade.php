@@ -1,25 +1,23 @@
 @extends('home.base')
-
 @section('content')
-    <!-- Hero area starts-->
-    <section class="hero-area ">
-        <div class="hero-banner">
-            <div class="inner-hero">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12 col-lg-12">
-                            <div class="hero-text">
-                                <h2>{{$pageName}}</h2>
-                                <span><a href="{{url('/')}}" class="home">Home</a> | <a href="#" class="disabled">{{$pageName}}</a></span>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+    <!-- Start Page Title Area -->
+    <div class="page-title-area">
+        <div class="container">
+            <div class="page-title-content">
+                <h2>{{$pageName}} </h2>
+                <ul>
+                    <li>
+                        <a href="{{url('/')}}">
+                            Home
+                        </a>
+                    </li>
+                    <li>Pages</li>
+                    <li>{{$pageName}} </li>
+                </ul>
             </div>
         </div>
-    </section>
-    <!-- Hero area ends -->
+    </div>
+    <!-- End Page Title Area -->
 
     <!-- END SECTION TEAM -->
     <section class="promo-section ptb-100" style="margin-top: 3rem;">
@@ -40,8 +38,8 @@
                     <div id="accordion-1" class="accordion accordion-faq">
                         <!-- Accordion card 1 -->
                         <div class="card">
-                            <div class="card-header py-4" id="heading-1-1" data-toggle="collapse" role="button"
-                                 data-target="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
+                            <div class="card-header py-4" id="heading-1-1" data-bs-toggle="collapse" role="button"
+                                 data-bs-target="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
                                 <h6 class="mb-0"><span class="ti-receipt mr-3"></span> What is {{$siteName}}?</h6>
                             </div>
                             <div id="collapse-1-1" class="collapse" aria-labelledby="heading-1-1"
@@ -58,8 +56,8 @@
                     <div id="accordion-1" class="accordion accordion-faq">
                         <!-- Accordion card 1 -->
                         <div class="card">
-                            <div class="card-header py-4" id="heading-1-2" data-toggle="collapse" role="button"
-                                 data-target="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
+                            <div class="card-header py-4" id="heading-1-2" data-bs-toggle="collapse" role="button"
+                                 data-bs-target="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
                                 <h6 class="mb-0"><span class="ti-receipt mr-3"></span> How do I create my account?</h6>
                             </div>
                             <div id="collapse-1-2" class="collapse" aria-labelledby="heading-1-2"
@@ -76,8 +74,8 @@
                     <div id="accordion-1" class="accordion accordion-faq">
                         <!-- Accordion card 1 -->
                         <div class="card">
-                            <div class="card-header py-4" id="heading-1-3" data-toggle="collapse" role="button"
-                                 data-target="#collapse-1-3" aria-expanded="false" aria-controls="collapse-1-3">
+                            <div class="card-header py-4" id="heading-1-3" data-bs-toggle="collapse" role="button"
+                                 data-bs-target="#collapse-1-3" aria-expanded="false" aria-controls="collapse-1-3">
                                 <h6 class="mb-0"><span class="ti-receipt mr-3"></span> How do I make a deposit?</h6>
                             </div>
                             <div id="collapse-1-3" class="collapse" aria-labelledby="heading-1-3"
@@ -118,8 +116,8 @@
                     <div id="accordion-1" class="accordion accordion-faq">
                         <!-- Accordion card 1 -->
                         <div class="card">
-                            <div class="card-header py-4" id="heading-1-4" data-toggle="collapse" role="button"
-                                 data-target="#collapse-1-4" aria-expanded="false" aria-controls="collapse-1-4">
+                            <div class="card-header py-4" id="heading-1-4" data-bs-toggle="collapse" role="button"
+                                 data-bs-target="#collapse-1-4" aria-expanded="false" aria-controls="collapse-1-4">
                                 <h6 class="mb-0"><span class="ti-receipt mr-3"></span> How long does my deposit take before it can reflect on my {{$siteName}} account dashboard?</h6>
                             </div>
                             <div id="collapse-1-4" class="collapse" aria-labelledby="heading-1-4"
@@ -140,8 +138,8 @@
                     <div id="accordion-2" class="accordion accordion-faq">
                         <!-- Accordion card 1 -->
                         <div class="card">
-                            <div class="card-header py-4" id="heading-1-5" data-toggle="collapse" role="button"
-                                 data-target="#collapse-2-5" aria-expanded="false" aria-controls="collapse-2-5">
+                            <div class="card-header py-4" id="heading-1-5" data-bs-toggle="collapse" role="button"
+                                 data-bs-target="#collapse-2-5" aria-expanded="false" aria-controls="collapse-2-5">
                                 <h6 class="mb-0"><span class="ti-receipt mr-3"></span> How do I make a withdrawal?</h6>
                             </div>
                             <div id="collapse-2-5" class="collapse" aria-labelledby="heading-2-5"
@@ -158,8 +156,8 @@
                     <div id="accordion-2" class="accordion accordion-faq">
                         <!-- Accordion card 1 -->
                         <div class="card">
-                            <div class="card-header py-4" id="heading-1-6" data-toggle="collapse" role="button"
-                                 data-target="#collapse-2-6" aria-expanded="false" aria-controls="collapse-2-6">
+                            <div class="card-header py-4" id="heading-1-6" data-bs-toggle="collapse" role="button"
+                                 data-bs-target="#collapse-2-6" aria-expanded="false" aria-controls="collapse-2-6">
                                 <h6 class="mb-0"><span class="ti-receipt mr-3"></span> How long does it take to process my withdrawal?</h6>
                             </div>
                             <div id="collapse-2-6" class="collapse" aria-labelledby="heading-2-6"
@@ -176,8 +174,8 @@
                     <div id="accordion-2" class="accordion accordion-faq">
                         <!-- Accordion card 1 -->
                         <div class="card">
-                            <div class="card-header py-4" id="heading-1-7" data-toggle="collapse" role="button"
-                                 data-target="#collapse-2-7" aria-expanded="false" aria-controls="collapse-2-7">
+                            <div class="card-header py-4" id="heading-1-7" data-bs-toggle="collapse" role="button"
+                                 data-bs-target="#collapse-2-7" aria-expanded="false" aria-controls="collapse-2-7">
                                 <h6 class="mb-0"><span class="ti-receipt mr-3"></span> Can I have more than one account?</h6>
                             </div>
                             <div id="collapse-2-7" class="collapse" aria-labelledby="heading-2-7"
@@ -194,8 +192,8 @@
                     <div id="accordion-2" class="accordion accordion-faq">
                         <!-- Accordion card 1 -->
                         <div class="card">
-                            <div class="card-header py-4" id="heading-1-8" data-toggle="collapse" role="button"
-                                 data-target="#collapse-2-8" aria-expanded="false" aria-controls="collapse-2-8">
+                            <div class="card-header py-4" id="heading-1-8" data-bs-toggle="collapse" role="button"
+                                 data-bs-target="#collapse-2-8" aria-expanded="false" aria-controls="collapse-2-8">
                                 <h6 class="mb-0"><span class="ti-receipt mr-3"></span> Is this company properly registered?</h6>
                             </div>
                             <div id="collapse-2-8" class="collapse" aria-labelledby="heading-2-8"
@@ -212,8 +210,8 @@
                     <div id="accordion-2" class="accordion accordion-faq">
                         <!-- Accordion card 1 -->
                         <div class="card">
-                            <div class="card-header py-4" id="heading-1-9" data-toggle="collapse" role="button"
-                                 data-target="#collapse-2-9" aria-expanded="false" aria-controls="collapse-2-9">
+                            <div class="card-header py-4" id="heading-1-9" data-bs-toggle="collapse" role="button"
+                                 data-bs-target="#collapse-2-9" aria-expanded="false" aria-controls="collapse-2-9">
                                 <h6 class="mb-0"><span class="ti-receipt mr-3"></span> Can I have more than two accounts?</h6>
                             </div>
                             <div id="collapse-2-9" class="collapse" aria-labelledby="heading-2-9"
@@ -230,8 +228,8 @@
                     <div id="accordion-2" class="accordion accordion-faq">
                         <!-- Accordion card 1 -->
                         <div class="card">
-                            <div class="card-header py-4" id="heading-1-10" data-toggle="collapse" role="button"
-                                 data-target="#collapse-2-10" aria-expanded="false" aria-controls="collapse-2-10">
+                            <div class="card-header py-4" id="heading-1-10" data-bs-toggle="collapse" role="button"
+                                 data-bs-target="#collapse-2-10" aria-expanded="false" aria-controls="collapse-2-10">
                                 <h6 class="mb-0"><span class="ti-receipt mr-3"></span> how many times can i make a deposit?</h6>
                             </div>
                             <div id="collapse-2-10" class="collapse" aria-labelledby="heading-2-10"

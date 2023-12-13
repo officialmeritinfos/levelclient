@@ -23,6 +23,7 @@ class HomeController extends Controller
             'packages'  => Package::where('status',1)->get(),
             'deposits'=>Investment::where('status','1')->orWhere('status','4')->orderBy('id','desc')->limit(10)->get(),
             'withdrawals'=>Withdrawal::where('status','!=',3)->orderBy('id','desc')->limit(10)->get(),
+            'services'=>Service::where('status',1)->get()
         ];
 
         return view('home.home',$dataView);
