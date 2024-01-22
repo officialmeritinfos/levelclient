@@ -291,19 +291,22 @@
 
 <!-- page-banner start -->
 
-<section class="banner banner__2 overflow-hidden" style="background-image: url({{asset('home/img/home-4/banner_01.png')}});">
+<section class="banner banner__2 overflow-hidden" style="background-image: url({{asset('home/img/ai2.jpeg')}});">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="banner__content text-center m-auto">
-                    <span class="sub-title fw-500  text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block">Welcome To Consulter</span>
-                    <h1 class="title mb-sm-10 mb-xs-5 mb-15">Best Grow Your <span>Business</span></h1>
+                    <span class="sub-title fw-500  text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block">Welcome To {{$siteName}}</span>
+                    <h1 class="title mb-sm-10 mb-xs-5 mb-15">Artificial Intelligence Powered <span> Excellence</span></h1>
 
                     <div class="description font-la mb-40 mb-lg-35 mb-sm-30 mb-xs-25">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>
+                            When you invest with {{$siteName}}, you are guaranteed of returns higher than anywhere
+                            else
+                        </p>
                     </div>
 
-                    <a href="about" class="theme-btn btn__2">Discover More <i class="far fa-chevron-double-right"></i></a>
+                    <a href="{{route('register')}}" class="theme-btn btn__2">Get Started <i class="far fa-chevron-double-right"></i></a>
                 </div>
             </div>
         </div>
@@ -322,10 +325,10 @@
                         <div class="icon color-white">
                             <i class="icon-process-1"></i>
                         </div>
-                        <h6 class="title text-capitalize color-white">Build Your Business With Right Way</h6>
+                        <h6 class="title text-capitalize color-white">Build your wealth the right way</h6>
                     </div>
 
-                    <a href="about" class="color-white">
+                    <a href="{{route('login')}}" class="color-white">
                         <i class="icon-arrow-right-2"></i>
                     </a>
                 </div>
@@ -337,10 +340,10 @@
                         <div class="icon color-white">
                             <i class="icon-like-comment"></i>
                         </div>
-                        <h6 class="title text-capitalize color-white">We Take Care and Growth Your Business</h6>
+                        <h6 class="title text-capitalize color-white">We take care of the processes while you earn</h6>
                     </div>
 
-                    <a href="about" class="color-white">
+                    <a href="{{route('register')}}" class="color-white">
                         <i class="icon-arrow-right-2"></i>
                     </a>
                 </div>
@@ -358,56 +361,29 @@
             <div class="col-lg-8 col-md-8">
                 <div class="section-title">
                     <h5> <img src="{{asset('home/img/team-details/badge-line.svg')}}" alt> Services</h5>
-                    <h2>Employee Friendly <span>Service</span></h2>
+                    <h2>Investor Friendly <span>Service</span></h2>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-4 text-start text-md-end mt-3 mt-md-0">
-                <a href="#" class="theme-btn btn__2 btn_sm__2">View All Services <i class="far fa-chevron-double-right"></i></a>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-12 mt-30">
-                <div class="single_card_item text-center">
-                    <div class="card_img">
-                        <img src="{{asset('home/img/home-4/card_01.png')}}" alt="">
-                    </div>
-                    <div class="card_content ">
-                        <div class="content">
-                            <h4>Finance & Strategy Service Plan</h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,</p>
+            @foreach($services as $service)
+                <div class="col-lg-4 col-md-6 col-12 mt-30">
+                    <div class="single_card_item text-center">
+                        <div class="card_img">
+                            <img src="{{asset('home/serv/'.$service->photo)}}" alt="">
                         </div>
-                        <button> Read Details <i class="fal fa-long-arrow-right"></i></button>
+                        <div class="card_content ">
+                            <div class="content">
+                                <h4>{{$service->title}}</h4>
+                                <p>
+                                    {{$service->short}}
+                                </p>
+                            </div>
+                            <a href="{{route('service.details',['id'=>$service->id])}}"> Read Details <i class="fal fa-long-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 mt-30">
-                <div class="single_card_item text-center">
-                    <div class="card_img">
-                        <img src="{{asset('home/img/home-4/card_02.png')}}" alt="">
-                    </div>
-                    <div class="card_content ">
-                        <div class="content">
-                            <h4>Business Planning, Strategy & Execution</h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,</p>
-                        </div>
-                        <button> Read Details <i class="fal fa-long-arrow-right"></i></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 mt-30">
-                <div class="single_card_item text-center">
-                    <div class="card_img ">
-                        <img src="{{asset('home/img/home-4/card_03.png')}}" alt="">
-                    </div>
-                    <div class="card_content ">
-                        <div class="content">
-                            <h4>Financial Projections And Analysis</h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,</p>
-                        </div>
-                        <button> Read Details <i class="fal fa-long-arrow-right"></i></button>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </section>
@@ -425,7 +401,7 @@
 
                     <div class="years-experience overflow-hidden mt-20 mt-sm-10 mt-xs-10 text-center">
                         <div class="number mb-5 color-white">
-                            <span class="counter">23</span><sup>+</sup>
+                            <span class="counter">10</span><sup>+</sup>
                         </div>
 
                         <h5 class="title color-white">Years Experience</h5>
@@ -444,11 +420,11 @@
             <div class="col-lg-6">
                 <div class="company-skill__content mt-md-50 mt-sm-45 mt-xs-40 ml-auto">
                     <span class="sub-title d-block fw-500 color-primary text-uppercase mb-sm-10 mb-xs-5 mb-md-15 mb-20"><img src="{{asset('home/img/team-details/badge-line.svg')}}" class="img-fluid mr-10" alt="">About Us</span>
-                    <h2 class="title color-pd_black mb-25 mb-xs-10 mb-sm-15">Our Company Provide <span>High Quality Idea</span></h2>
+                    <h2 class="title color-pd_black mb-25 mb-xs-10 mb-sm-15">Our Company Provide <span>High Quality Investment</span></h2>
 
                     <div class="description font-la">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                        <p class="mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                        <p>At {{$siteName}}, we believe in more than just investing; we believe in strategic wealth planning. Our team of experts collaborates with you to craft a personalized roadmap for financial success. From short-term gains to long-term legacies, we meticulously plan every step, ensuring your investments align with your aspirations. Join us in redefining the art of wealth creation through strategic planning and astute decision-making.</p>
+                        <p class="mt-20">Embark on a personalized financial journey with {{$siteName}}, where we help you uncover the vast potential of your financial horizon. Our tailored strategies and innovative solutions are designed to align with your unique goals, ensuring a path to prosperity that's as individual as you are. Let {{$siteName}} be your compass as you navigate towards a secure and rewarding financial future.</p>
                     </div>
 
                     <div class="service_element d-flex justify-content-between">
@@ -463,21 +439,10 @@
                             </div>
 
                             <div class="text_2 text-start">
-                                <div class="number"><span class="counter">250</span>+</div>
-                                <div class="description">Our Team Members</div>
+                                <div class="number"><span class="counter">150</span>+</div>
+                                <div class="description">Staff Members</div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="author_element d-flex align-items-center justify-content-between">
-                        <div class="author d-flex align-items-center">
-                            <div class="author_img bg-contain bg-cover" style="background-image: url({{asset('home/img/home-4/man.png')}});"></div>
-                            <div class="author_name">
-                                <h5>Tanjila Farin</h5>
-                                <p>Company, Ceo</p>
-                            </div>
-                        </div>
-                        <a href="#" class="theme-btn">Read More <i class="far fa-chevron-double-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -506,8 +471,8 @@
                             <i class="icon-outline"></i>
                         </div>
                     </div>
-                    <h4>Step - 1. Enter Product Details</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h4>Step - 1. Create an Account</h4>
+                    <p>Create a secured account on {{$siteName}} and login</p>
                 </div>
                 <div class="arrow__element d-none d-md-block">
                     <img src="{{asset('home/img/home-4/arrow_01.svg')}}" alt>
@@ -520,8 +485,8 @@
                             <i class="icon-teamwork-1"></i>
                         </div>
                     </div>
-                    <h4>Step - 2. Pay Your Service Tag</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h4>Step - 2. Select Package and Deposit</h4>
+                    <p>From our list of available packages, select the one that suits your need and make deposit</p>
                 </div>
                 <div class="arrow__element d-none d-md-block">
                     <img src="{{asset('home/img/home-4/arrow_01.svg')}}" alt>
@@ -534,8 +499,8 @@
                             <i class="icon-teamwork-1"></i>
                         </div>
                     </div>
-                    <h4>Step - 3. Ready To Go Your Goods</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h4>Step - 3. Earn and Withdraw</h4>
+                    <p>Once your deposit is received, our staff will secure your slot in the investment option, then you can start earning.</p>
                 </div>
             </div>
         </div>
@@ -545,212 +510,77 @@
         <div class="row align-items-center section-padding_3">
             <div class="col-lg-8 col-md-8">
                 <div class="section-title">
-                    <h5> <img src="{{asset('home/img/team-details/badge-line.svg')}}" alt>Our Portfolio</h5>
-                    <h2>Amazing Work <span>Showcase</span></h2>
+                    <h5> <img src="{{asset('home/img/team-details/badge-line.svg')}}" alt>Our Industry</h5>
+                    <h2>Amazing <span>Showcase</span></h2>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-4 text-start text-md-end mt-3 mt-md-0">
-                <a href="#" class="theme-btn btn__2 btn_sm__2">View All Services <i class="far fa-chevron-double-right"></i></a>
             </div>
         </div>
     </div>
 
     <div class=" our-porfolio__slider__2 mt-30">
-        <div class="slider-item">
-            <div class="our-project__item overflow-hidden">
-                <img src="{{asset('home/img/portfolio/portfolio-1.png')}}" alt="">
+        @foreach($services as $ser)
+            <div class="slider-item">
+                <div class="our-project__item overflow-hidden">
+                    <img src="{{asset('home/serv/'.$ser->photo)}}" alt="">
 
-                <div class="content d-flex align-items-center justify-content-between">
-                    <div class="text">
-                        <span class="fw-500 color-primary d-block mb-10 text-uppercase">Financial solution</span>
-                        <h5 class="title color-secondary">Financial Reporting</h5>
+                    <div class="content d-flex align-items-center justify-content-between">
+                        <div class="text">
+                            <span class="fw-500 color-primary d-block mb-10 text-uppercase">{{$ser->title}}</span>
+                            <h5 class="title color-secondary">{{$ser->title}}</h5>
+                        </div>
+
+                        <a href="{{route('service.details',['id'=>$ser->id])}}" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
                     </div>
-
-                    <a href="our-project" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
                 </div>
             </div>
-        </div>
+        @endforeach
 
-        <div class="slider-item">
-            <div class="our-project__item overflow-hidden">
-                <img src="{{asset('home/img/portfolio/portfolio-2.png')}}" alt="">
-
-                <div class="content d-flex align-items-center justify-content-between">
-                    <div class="text">
-                        <span class="fw-500 color-primary d-block mb-10 text-uppercase">Business, Finance</span>
-                        <h5 class="title color-secondary">Business & Strategy</h5>
-                    </div>
-
-                    <a href="our-project" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="slider-item">
-            <div class="our-project__item overflow-hidden">
-                <img src="{{asset('home/img/portfolio/portfolio-3.png')}}" alt="">
-
-                <div class="content d-flex align-items-center justify-content-between">
-                    <div class="text">
-                        <span class="fw-500 color-primary d-block mb-10 text-uppercase">Business, Consulting</span>
-                        <h5 class="title color-secondary">Business Consulting</h5>
-                    </div>
-
-                    <a href="our-project" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="slider-item">
-            <div class="our-project__item overflow-hidden">
-                <img src="{{asset('home/img/portfolio/portfolio-1.png')}}" alt="">
-
-                <div class="content d-flex align-items-center justify-content-between">
-                    <div class="text">
-                        <span class="fw-500 color-primary d-block mb-10 text-uppercase">Financial solution</span>
-                        <h5 class="title color-secondary">Financial Reporting</h5>
-                    </div>
-
-                    <a href="our-project" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="slider-item">
-            <div class="our-project__item overflow-hidden">
-                <img src="{{asset('home/img/portfolio/portfolio-2.png')}}" alt="">
-
-                <div class="content d-flex align-items-center justify-content-between">
-                    <div class="text">
-                        <span class="fw-500 color-primary d-block mb-10 text-uppercase">Business, Finance</span>
-                        <h5 class="title color-secondary">Business & Strategy</h5>
-                    </div>
-
-                    <a href="our-project" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="slider-item">
-            <div class="our-project__item overflow-hidden">
-                <img src="{{asset('home/img/portfolio/portfolio-3.png')}}" alt="">
-
-                <div class="content d-flex align-items-center justify-content-between">
-                    <div class="text">
-                        <span class="fw-500 color-primary d-block mb-10 text-uppercase">Business, Consulting</span>
-                        <h5 class="title color-secondary">Business Consulting</h5>
-                    </div>
-
-                    <a href="our-project" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 <!-- protfolio_wrapper end -->
 
-<!-- our-team start -->
-
-<section class="our-team our-team-home-3 pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-120 overflow-hidden">
+<!-- pricing start -->
+<section class="pricing pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-110 overflow-hidden" style="background-image: url({{asset('home/img/price/testimonial-bg.svg')}});">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="our-team__content mb-65 mb-md-50 mb-sm-40 mb-xs-30 text-center">
-                    <span class="sub-title fw-500 color-primary text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img src="{{asset('home/img/team-details/badge-line.svg')}}" class="img-fluid mr-10" alt=""> Our Team</span>
-                    <h2 class="title color-d_black">Meet Our Team <span>Member</span></h2>
+                <div class="pricing__content mb-40 mb-xs-30 text-center">
+                    <h2 class="title color-d_black mb-25 mb-sm-20 mb-xs-15 text-capitalize">Our Investment Packages</h2>
+
                 </div>
             </div>
         </div>
 
-        <div class="row mb-minus-30">
-            <div class="col-xxl-3 col-lg-4 col-md-6">
-                <div class="team-item team-about-item text-center mb-30 d-block overflow-hidden">
-                    <div class="media media_2">
-                        <img src="{{asset('home/img/about/about-member-1.png')}}" class="img-fluid" alt="">
-                    </div>
-                    <div class="icons_team">
-                        <div class="content">
-                            <h5>Stephen Larry</h5>
-                            <p>Product Manager</p>
+        <div class="pricing-item-wraper">
+            <div class="row mb-minus-30">
+                @foreach($packages as $package)
+                    <div class="col-xl-4 col-md-6">
+                        <div class="pricing__card d-flex flex-column justify-content-between mb-30 overflow-hidden">
+                            <div class="pricing__card-header">
+                                <h3 class="title color-d_black">Basic Plan</h3>
+                                <h6 class="sub-title font-la fw-600 text-uppercase mb-30 mb-sm-25 mb-xs-15">Start package <img src="assets/img/icon/hand-3.svg" class="img-fluid" alt=""></h6>
+                                <div class="price color-white mb-30 mb-sm-25 mb-xs-15 overflow-hidden">$29.00 <span>/Monthly</span></div>
+                                <p>Plan for businesses with basic IT requirements</p>
+                            </div>
+                            <div class="pricing__card-body">
+                                <ul>
+                                    <li><i class="fal fa-check-square"></i> Business Solutions</li>
+                                    <li><i class="fal fa-check-square"></i> Market Growth Solutions</li>
+                                    <li><i class="fal fa-check-square"></i> Security Management</li>
+                                    <li><i class="icon-close-3"></i> Digital Business Solutions</li>
+                                    <li><i class="icon-close-3"></i> 24/7 System Monitoring</li>
+                                </ul>
+                                <a href="{{route('register')}}" class="theme-btn mt-40 mt-md-35">Get Started <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
                         </div>
-                        <div class="icon">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
+                    </div><!-- /pricing__card -->
+                @endforeach
             </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6">
-                <div class="team-item team-about-item text-center mb-30 d-block overflow-hidden">
-                    <div class="media media_2">
-                        <img src="{{asset('home/img/about/about-member-1.png')}}" class="img-fluid" alt="">
-                    </div>
-                    <div class="icons_team">
-                        <div class="content">
-                            <h5>Stephen Larry</h5>
-                            <p>Product Manager</p>
-                        </div>
-                        <div class="icon">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6">
-                <div class="team-item team-about-item text-center mb-30 d-block overflow-hidden">
-                    <div class="media media_2">
-                        <img src="{{asset('home/img/about/about-member-1.png')}}" class="img-fluid" alt="">
-                    </div>
-                    <div class="icons_team">
-                        <div class="content">
-                            <h5>Stephen Larry</h5>
-                            <p>Product Manager</p>
-                        </div>
-                        <div class="icon">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6">
-                <div class="team-item team-about-item text-center mb-30 d-block overflow-hidden">
-                    <div class="media media_2">
-                        <img src="{{asset('home/img/about/about-member-1.png')}}" class="img-fluid" alt="">
-                    </div>
-                    <div class="icons_team">
-                        <div class="content">
-                            <h5>Stephen Larry</h5>
-                            <p>Product Manager</p>
-                        </div>
-                        <div class="icon">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-12">
-                <div class="our-team__btn-wrapper text-center mt-70 mt-md-50 mt-sm-40 mt-xs-30">
-                    <a href="team" class="theme-btn btn__2">See All Member <i class="far fa-chevron-double-right"></i></a>
-                </div>
-            </div>
         </div>
     </div>
 </section>
-<!-- our-team end -->
+<!-- pricing end -->
 
 <!-- testimonial start -->
 
@@ -1160,78 +990,6 @@
     </div>
 </section>
 <!-- delivery end -->
-<!-- can-help start -->
-
-<section class="can-help can-help-home-3  can-help-home-4 bg-dark_white  section-padding overflow-hidden">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-7">
-                <div class="can-help__content  mb-sm-40 mb-xs-40 mb-md-45 mb-lg-50">
-                    <h2 class="title color-d_black mb-sm-15 mb-xs-10 mb-20">Experience The Evolution Of Your Business</h2>
-
-                    <div class="description font-la mb-md-25 mb-sm-25 mb-xs-20 mb-lg-30 mb-50">
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look</p>
-                    </div>
-
-                    <div class="help-text mb-md-25 mb-sm-25 mb-xs-20 mb-lg-25 mb-40">
-                        <a href="contact"><img src="{{asset('home/img/icon/question-comment.svg')}}" class="img-fluid mr-xs-10 mr-20" alt="">Need help? <span>Contact Us</span></a>
-                    </div>
-
-                    <div class="can-help__content-btn-group d-flex flex-column flex-sm-row">
-                        <a href="tel:+1235568824" class="theme-btn d-flex flex-column flex-md-row align-items-md-center">
-                            <div class="icon">
-                                <i class="icon-call"></i>
-
-                            </div>
-                            <div class="text">
-                                <span class="font-la mb-10 d-block fw-500 color-d_black">Call Us Everyday</span>
-                                <h5 class="fw-500 color-d_black">+123 556 8824</h5>
-                            </div>
-                        </a>
-
-                        <a href="mailto:consulter@gmail.com" class="theme-btn d-flex flex-column flex-md-row align-items-md-center">
-                            <div class="icon">
-                                <i class="icon-email-1"></i>
-
-                            </div>
-                            <div class="text">
-                                <span class="font-la mb-10 d-block fw-500 color-d_black">Email Drop Us</span>
-                                <h5 class="fw-500 color-d_black">consulter@gmail.com</h5>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-5">
-                <div class="contact-form pt-md-30 pt-sm-25 pt-xs-20 pb-md-40 pb-sm-35 pb-xs-30 pt-xl-30 pb-xl-50 pt-45 pr-xl-50 pl-md-40 pl-sm-30 pl-xs-25 pr-md-40 pr-sm-30 pr-xs-25 pl-xl-50 pr-85 pb-60 pl-85">
-                    <div class="contact-form__header mb-sm-35 mb-xs-30 mb-40">
-                        <h6 class="sub-title fw-500 color-primary text-uppercase mb-15"><img src="{{asset('home/img/team-details/badge-line.svg')}}" class="img-fluid mr-10" alt=""> Get In Touch</h6>
-                        <h3 class="title color-d_black">Free Consultation</h3>
-                    </div>
-
-                    <form>
-                        <div class="single-personal-info">
-                            <input type="text" id="fname" placeholder="Your Name">
-                        </div>
-                        <div class="single-personal-info">
-                            <input type="email" id="email" placeholder="Your e-mail">
-                        </div>
-                        <div class="single-personal-info">
-                            <input type="text" placeholder="Subject">
-                        </div>
-                        <div class="single-personal-info">
-                            <textarea placeholder="Your Massage"></textarea>
-                        </div>
-
-                        <button type="submit" class="theme-btn btn-sm btn__2">Free Consultant <i class="far fa-chevron-double-right"></i></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- can-help end -->
 
 <!-- blog-news start -->
 
@@ -1241,97 +999,19 @@
             <div class="col-lg-9">
                 <div class="blog-news__content">
                     <span class="sub-title fw-500 color-primary text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img src="{{asset('home/img/team-details/badge-line.svg')}}" class="img-fluid mr-10" alt=""> Blog & News</span>
-                    <h2 class="title color-d_black">Consulter Latest <span>Blog & News</span></h2>
+                    <h2 class="title color-d_black">Our Latest <span>Blog & News</span></h2>
                 </div>
             </div>
 
-            <div class="col-lg-3">
-                <div class="blog-news__content text-start text-md-end mt-3 mt-md-0">
-                    <a href="blog-standard" class="theme-btn btn__2 btn_sm__2">View All Blog <i class="far fa-chevron-double-right"></i></a>
-                </div>
-            </div>
         </div>
 
         <div class="blog-news__bottom mt-65 mt-sm-50 mt-xs-40">
             <div class="row mb-minus-30">
-                <div class="col-xl-4 col-md-6 col-12">
+
+                <div class="col-xl-12 col-md-12 col-12">
                     <div class="blog-item mb-30">
-                        <div class="blog-featured-thumb mb-xs-30 mb-sm-30 mb-md-35 mb-lg-40 mb-50">
-                            <div class="media overflow-hidden">
-                                <img src="{{asset('home/img/blog/blog-1.jpg')}}" class="img-fluid" alt="">
-                            </div>
-                            <div class="date">
-                                <span>27</span>
-                                <span>Jun</span>
-                                <span>2020</span>
-                            </div>
-                        </div>
-
-                        <div class="content pr-sm-25 pr-xs-15 pl-xs-15 pl-sm-25 pr-xs-15 pr-30 pb-30 pl-30">
-                            <div class="post-author mb-5">
-                                <a href="blog-details">Business, Consulting</a>
-                            </div>
-
-                            <h4><a href="blog-details">Consulted admitting wooded is power acuteness</a></h4>
-
-                            <div class="btn-link-share mt-xs-10 mt-sm-10 mt-15">
-                                <a href="blog-details" class="theme-btn btn-border">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-md-6 col-12">
-                    <div class="blog-item mb-30">
-                        <div class="blog-featured-thumb mb-xs-30 mb-sm-30 mb-md-35 mb-lg-40 mb-50">
-                            <div class="media overflow-hidden">
-                                <img src="{{asset('home/img/blog/blog-2.jpg')}}" class="img-fluid" alt="">
-                            </div>
-                            <div class="date">
-                                <span>30</span>
-                                <span>April</span>
-                                <span>2021</span>
-                            </div>
-                        </div>
-
-                        <div class="content pr-sm-25 pr-xs-15 pl-xs-15 pl-sm-25 pr-xs-15 pr-30 pb-30 pl-30">
-                            <div class="post-author mb-5">
-                                <a href="blog-details">Business</a>
-                            </div>
-
-                            <h4><a href="blog-details">The 3 Most Effective Incentives for Employees</a></h4>
-
-                            <div class="btn-link-share mt-xs-10 mt-sm-10 mt-15">
-                                <a href="blog-details" class="theme-btn btn-border">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-md-6 col-12">
-                    <div class="blog-item mb-30">
-                        <div class="blog-featured-thumb mb-xs-30 mb-sm-30 mb-md-35 mb-lg-40 mb-50">
-                            <div class="media overflow-hidden">
-                                <img src="{{asset('home/img/blog/blog-3.jpg')}}" class="img-fluid" alt="">
-                            </div>
-                            <div class="date">
-                                <span>24</span>
-                                <span>Sept</span>
-                                <span>2022</span>
-                            </div>
-                        </div>
-
-                        <div class="content pr-sm-25 pr-xs-15 pl-xs-15 pl-sm-25 pr-xs-15 pr-30 pb-30 pl-30">
-                            <div class="post-author mb-5">
-                                <a href="blog-details">Consulting</a>
-                            </div>
-
-                            <h4><a href="blog-details">How To Achieve Success As A New Consultant</a></h4>
-
-                            <div class="btn-link-share mt-xs-10 mt-sm-10 mt-15">
-                                <a href="blog-details" class="theme-btn btn-border">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
-                            </div>
-                        </div>
+                        <rssapp-wall id="38kEBNRCi1vuK60z"></rssapp-wall>
+                        <script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
                     </div>
                 </div>
             </div>
@@ -1345,30 +1025,22 @@
     <div class="footer-top mb-xs-5 mb-sm-10 mb-md-15 mb-lg-20 mb-25 overflow-hidden">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-12 col-12">
                     <div class="single-footer-wid site_info_box">
                         <a href="{{url('/')}}" class="d-block mb-20">
                             <img src="{{asset('home/images/'.$web->logo)}}" alt="">
                         </a>
 
                         <div class="description font-la color-white">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.</p>
+                            <p>
+                                {{$siteName}} remains your steadfast companion, offering not just investment opportunities but a holistic
+                                approach to financial well-being. With a global vision and a local impact, we continue to shape
+                                the future of finance, one successful investment at a time.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <div class="single-footer-wid newsletter_widget">
-                        <h6 class="title d-flex align-items-center color-white mb-30"><img src="{{asset('home/img/icon/notification.svg')}}" alt=""> keep up to date - get updates with latest topics.</h6>
-
-                        <div class="newsletter_box">
-                            <form action="#">
-                                <input type="email" placeholder="Enter your email address" required>
-                                <button class="theme-btn" type="submit">Subscribe Now <i class="fab fa-telegram-plane"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -1382,15 +1054,6 @@
                     <div class="contact-wrapper pt-30 pr-30 pb-30 pl-30">
                         <div class="wid-contact pb-30 mb-25">
                             <ul>
-                                <li>
-                                    <div class="icon">
-                                        <i class="far fa-clock"></i>
-                                    </div>
-
-                                    <div class="contact-info font-la color-white">
-                                        <p>Mon - Sat / 08am : 12pm</p>
-                                    </div>
-                                </li>
 
                                 <li>
                                     <div class="icon">
