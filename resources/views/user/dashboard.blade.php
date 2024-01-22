@@ -1,6 +1,6 @@
 @extends('user.base')
 @section('content')
-@inject('injected','App\Defaults\Custom')
+    @inject('injected','App\Defaults\Custom')
 
 
     @foreach($promos as $promo)
@@ -16,85 +16,10 @@
         </div>
     @endforeach
 
-    <div class="ui-kit-card mb-24">
-        <div class="row">
-            <div class="col-6">
-                <a href="{{route('new_investment')}}" class="btn btn-primary"> Deposit</a>
-            </div>
-            <div class="col-6">
-                <a href="{{route('new_withdrawal')}}" class="btn btn-warning">Withdraw</a>
-            </div>
-        </div>
-    </div>
-
     <div class="today-card-area pt-24">
         <div class="container-fluid">
             @include('templates.notification')
             <div class="row justify-content-center">
-
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-today-card d-flex align-items-center">
-                        <div class="flex-grow-1">
-                            <span class="today">Ongoing Investment</span>
-                            <h6>{{number_format($ongoingInvestments->count(),2)}}</h6>
-                        </div>
-
-                        <div class="flex-shrink-0 align-self-center">
-                            <img src="{{asset('dashboard/user/images/icon/discount.png')}}" alt="Images">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-today-card d-flex align-items-center">
-                        <div class="flex-grow-1">
-                            <span class="today">Completed Investment</span>
-                            <h6>{{number_format($completedInvestments->count(),2)}}</h6>
-                        </div>
-
-                        <div class="flex-shrink-0 align-self-center">
-                            <img src="{{asset('dashboard/user/images/icon/discount.png')}}" alt="Images">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-today-card d-flex align-items-center">
-                        <div class="flex-grow-1">
-                            <span class="today">Pending Deposit</span>
-                            <h6>{{number_format($pendingDeposit->count(),2)}}</h6>
-                        </div>
-
-                        <div class="flex-shrink-0 align-self-center">
-                            <img src="{{asset('dashboard/user/images/icon/discount.png')}}" alt="Images">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-today-card d-flex align-items-center">
-                        <div class="flex-grow-1">
-                            <span class="today">Pending Withdrawal</span>
-                            <h6>{{number_format($pendingWithdrawal->count(),2)}}</h6>
-                        </div>
-
-                        <div class="flex-shrink-0 align-self-center">
-                            <img src="{{asset('dashboard/user/images/icon/discount.png')}}" alt="Images">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-today-card d-flex align-items-center">
-                        <div class="flex-grow-1">
-                            <span class="today">Completed Withdrawal</span>
-                            <h6>{{number_format($withdrawals->count(),2)}}</h6>
-                        </div>
-
-                        <div class="flex-shrink-0 align-self-center">
-                            <img src="{{asset('dashboard/user/images/icon/discount.png')}}" alt="Images">
-                        </div>
-                    </div>
-                </div>
-
-
-
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-today-card d-flex align-items-center">
                         <div class="flex-grow-1">
@@ -184,6 +109,67 @@
                 <div class="col-lg-5">
                     <div class="active-user">
                         <div id="stacked-column-chart-2"></div>
+
+                        <div class="active-user-content-wrap">
+                            <h6 class="active-user-content">
+                                Investment Overview
+                                <i class="ri-arrow-up-line"></i>
+                            </h6>
+
+                            <div class="row justify-content-center">
+                                <div class="col-lg-3 col-sm-6 col-md-3">
+                                    <div class="active-single-item">
+                                        <p>
+                                            <img src="{{asset('dashboard/user/images/icon/user-2.png')}}" alt="Images">
+                                            Ongoing Investments
+                                            <span>
+                                                {{number_format($ongoingInvestments->count(),2)}}
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-6 col-md-3">
+                                    <div class="active-single-item">
+                                        <p>
+                                            <img src="{{asset('dashboard/user/images/icon/curser.png')}}" alt="Images">
+                                            Completed Investments
+                                            <span>{{number_format($completedInvestments->count(),2)}}</span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-6 col-md-3">
+                                    <div class="active-single-item">
+                                        <p>
+                                            <img src="{{asset('dashboard/user/images/icon/discount-2.png')}}" alt="Images">
+                                            Pending Deposits
+                                            <span>{{number_format($pendingDeposit->count(),2)}}</span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-6 col-md-3">
+                                    <div class="active-single-item">
+                                        <p>
+                                            <img src="{{asset('dashboard/user/images/icon/discount-2.png')}}" alt="Images">
+                                            Pending Withdrawals
+                                            <span>{{number_format($pendingWithdrawal->count(),2)}}</span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-6 col-md-3">
+                                    <div class="active-single-item">
+                                        <p>
+                                            <img src="{{asset('dashboard/user/images/icon/items.png')}}" alt="Images">
+                                            Completed Withdrawals
+                                            <span> {{number_format($withdrawals->count(),2)}}</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
