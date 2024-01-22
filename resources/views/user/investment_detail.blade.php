@@ -115,7 +115,6 @@
                 <span class="email-text">Read the instruction below</span>
 
                 <div class="email-content">
-                    <p class="free-report">You have <span>1 free report</span> remaining.</p>
                     <p class="report">
                         You are to send <b>{{number_format($investment->amount,2)}} of {{$investment->asset}}</b>
                         to the address <b style="font-size:20px;" id="address">{{$investment->wallet}}</b>.<br>
