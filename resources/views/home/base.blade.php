@@ -43,39 +43,39 @@
 <body class="body-wrapper">
 @inject('injected','App\Defaults\Custom')
 <!-- preloader -->
-<div id="preloader" class="preloader">
-    <div class="animation-preloader">
-        <div class="spinner">
-        </div>
-        <div class="txt-loading">
-            @php
-                $words = str_split($siteName);
-            @endphp
-            @foreach($words as $word)
-                <span data-text-preloader="{{strtoupper($word)}}" class="letters-loading">
-                        {{strtoupper($word)}}
-                    </span>
-            @endforeach
-        </div>
-        <p class="text-center">Loading</p>
-    </div>
-    <div class="loader">
-        <div class="row">
-            <div class="col-3 loader-section section-left">
-                <div class="bg"></div>
-            </div>
-            <div class="col-3 loader-section section-left">
-                <div class="bg"></div>
-            </div>
-            <div class="col-3 loader-section section-right">
-                <div class="bg"></div>
-            </div>
-            <div class="col-3 loader-section section-right">
-                <div class="bg"></div>
-            </div>
-        </div>
-    </div>
-</div>
+{{--<div id="preloader" class="preloader">--}}
+{{--    <div class="animation-preloader">--}}
+{{--        <div class="spinner">--}}
+{{--        </div>--}}
+{{--        <div class="txt-loading">--}}
+{{--            @php--}}
+{{--                $words = str_split($siteName);--}}
+{{--            @endphp--}}
+{{--            @foreach($words as $word)--}}
+{{--                <span data-text-preloader="{{strtoupper($word)}}" class="letters-loading">--}}
+{{--                        {{strtoupper($word)}}--}}
+{{--                    </span>--}}
+{{--            @endforeach--}}
+{{--        </div>--}}
+{{--        <p class="text-center">Loading</p>--}}
+{{--    </div>--}}
+{{--    <div class="loader">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-3 loader-section section-left">--}}
+{{--                <div class="bg"></div>--}}
+{{--            </div>--}}
+{{--            <div class="col-3 loader-section section-left">--}}
+{{--                <div class="bg"></div>--}}
+{{--            </div>--}}
+{{--            <div class="col-3 loader-section section-right">--}}
+{{--                <div class="bg"></div>--}}
+{{--            </div>--}}
+{{--            <div class="col-3 loader-section section-right">--}}
+{{--                <div class="bg"></div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</div>--}}
 <!-- welcome content start from here -->
 
 <!-- header end -->
