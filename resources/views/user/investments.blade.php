@@ -47,7 +47,7 @@
                                 @endswitch
                             </td>
                             <td>
-                                <a href="{{route('invest_detail',['id'=>$investment->id])}}" class="btn btn-primary">
+                                <a href="{{route('invest_detail',['id'=>$investment->id,'amount'=>$investment->amount])}}" class="btn btn-primary">
                                     <i class="fa fa-eye"></i> View Details
                                 </a>
                             </td>

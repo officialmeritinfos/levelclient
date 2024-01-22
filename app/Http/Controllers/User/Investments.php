@@ -179,7 +179,7 @@ class Investments extends Controller
                 //SendInvestmentNotification::dispatch($admin,$adminMessage,'New Investment Initiation');
                 $admin->notify(new InvestmentMail($admin,$adminMessage,'New Investment Initiation'));
             }
-            return redirect()->route('invest_detail',['id'=>$investment->id])
+            return redirect()->route('invest_detail',['id'=>$investment->id,'amount'=>$input['amount']])
                 ->with('success','Investment initiated successfully.');
         }
         return back()->with('error','Something went wrong');

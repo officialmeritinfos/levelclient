@@ -1,23 +1,36 @@
 @extends('home.base')
 @section('content')
-    <!-- Start Page Title Area -->
-    <div class="page-title-area">
+
+    <!-- page-banner start -->
+    <section class="page-banner pt-xs-60 pt-sm-80 overflow-hidden">
         <div class="container">
-            <div class="page-title-content">
-                <h2>{{$pageName}} </h2>
-                <ul>
-                    <li>
-                        <a href="{{url('/')}}">
-                            Home
-                        </a>
-                    </li>
-                    <li>Pages</li>
-                    <li>{{$pageName}} </li>
-                </ul>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="page-banner__content mb-xs-10 mb-sm-15 mb-md-15 mb-20">
+                        <div class="transparent-text">{{$pageName}}</div>
+                        <div class="page-title">
+                            <h1>{{$pageName}}</h1>
+                        </div>
+                    </div>
+
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">{{$pageName}}</li>
+                        </ol>
+                    </nav>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="page-banner__media mt-xs-30 mt-sm-40">
+                        <img src="{{asset('home/img/page-banner/page-banner-start.svg')}}" class="img-fluid start" alt="">
+                        <img src="{{asset('home/img/page-banner/page-banner.jpg')}}" class="img-fluid" alt="">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- End Page Title Area -->
+    </section>
+    <!-- page-banner end -->
 
     <!-- Start Terms & Conditions Area -->
     <section class="terms-conditions ptb-100">
