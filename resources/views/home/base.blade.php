@@ -515,6 +515,5 @@
     }
 </script>
 <!-- end popup massage -->
-<script src="//code.tidio.co/rmqybyry5nzzksh3p4c8g0kdc8dttf6r.js" async></script>
 </body>
 </html>

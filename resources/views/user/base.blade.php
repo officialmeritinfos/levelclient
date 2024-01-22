@@ -302,6 +302,5 @@
     new ClipboardJS('.copy');
 </script>
 @stack('js')
-<script src="//code.tidio.co/rmqybyry5nzzksh3p4c8g0kdc8dttf6r.js" async></script>
 </body>
 </html>
