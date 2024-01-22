@@ -1398,17 +1398,7 @@
                                     </div>
 
                                     <div class="contact-info font-la color-white">
-                                        <p>Mon - Sat / 08am : 12pm</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <i class="far fa-clock"></i>
-                                    </div>
-
-                                    <div class="contact-info font-la color-white">
-                                        <p>Sunday Close</p>
+                                        <p>Mon - Sat / 24 Hours/p>
                                     </div>
                                 </li>
                             </ul>
@@ -1433,26 +1423,24 @@
                     <ul>
                         <li><a href="{{url('/')}}">Home</a></li>
                         <li><a href="{{url('about')}}">About</a></li>
-                        <li>
-                            <a href="#">Our Services</a>
-                            <ul>
-                                @foreach($injected->getServices() as $servi)
-                                    <li><a href="{{route('service.details',['id'=>$servi->id])}}">{{$servi->title}}</a></li>
-                                @endforeach
-                            </ul>
-                        </li>
+
+                    </ul>
+                </div>
+            </div> <!-- /.col-lg-2 - single-footer-wid -->
+
+            <div class="col-md-6 col-xl-2">
+                <div class="single-footer-wid pl-xl-10 pl-50">
+                    <h4 class="wid-title mb-30 color-white">Services</h4>
+
+                    <ul>
+                        @foreach($injected->getServices() as $servi)
+                            <li><a href="{{route('service.details',['id'=>$servi->id])}}">{{$servi->title}}</a></li>
+                        @endforeach
                     </ul>
                 </div>
             </div> <!-- /.col-lg-2 - single-footer-wid -->
 
 
-            <div class="col-md-6 col-xl-3">
-                <div class="single-footer-wid">
-                    <h4 class="wid-title mb-30 color-white">Office Location</h4>
-
-                    <div id="map"></div>
-                </div>
-            </div> <!-- /.col-lg-3 - single-footer-wid -->
         </div>
     </div>
 
