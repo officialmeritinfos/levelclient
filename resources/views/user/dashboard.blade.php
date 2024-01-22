@@ -16,6 +16,17 @@
         </div>
     @endforeach
 
+    <div class="ui-kit-card mb-24">
+        <div class="row">
+            <div class="col-6">
+                <a href="{{route('new_investment')}}" class="btn btn-primary"> Deposit</a>
+            </div>
+            <div class="col-6">
+                <a href="{{route('new_withdrawal')}}" class="btn btn-warning">Withdraw</a>
+            </div>
+        </div>
+    </div>
+
     <div class="today-card-area pt-24">
         <div class="container-fluid">
             @include('templates.notification')
