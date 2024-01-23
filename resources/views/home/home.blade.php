@@ -36,6 +36,41 @@
     </section>
     <!-- banner-home end -->
 
+    <!--================End Slider Area =================-->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+                "symbols": [
+                {
+                    "title": "S&P 500",
+                    "proName": "OANDA:SPX500USD"
+                },
+                {
+                    "title": "Shanghai Composite",
+                    "proName": "INDEX:XLY0"
+                },
+                {
+                    "title": "EUR/USD",
+                    "proName": "FX_IDC:EURUSD"
+                },
+                {
+                    "title": "BTC/USD",
+                    "proName": "BITSTAMP:BTCUSD"
+                },
+                {
+                    "title": "ETH/USD",
+                    "proName": "BITSTAMP:ETHUSD"
+                }
+            ],
+                "colorTheme": "light",
+                "isTransparent": true,
+                "displayMode": "adaptive",
+                "locale": "en"
+            }
+        </script>
+    </div>
+
     <div class="our-company-financial overflow-hidden">
         <div class="overly">
             <div class="container"></div>

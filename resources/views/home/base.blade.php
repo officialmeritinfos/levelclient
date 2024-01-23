@@ -106,6 +106,9 @@
                                         </ul>
                                     </li>
                                     <li>
+                                        <a href="{{url('nft')}}">NFT</a>
+                                    </li>
+                                    <li>
                                         <a>Pages</a>
                                         <ul>
                                             <li>
@@ -180,6 +183,9 @@
                         </ul>
                     </li>
                     <li>
+                        <a href="{{url('nft')}}">NFT</a>
+                    </li>
+                    <li>
                         <a>Pages</a>
                         <ul>
                             <li>
@@ -227,7 +233,7 @@
                                     </div>
                                     <div class="text">
                                         <span class="font-la mb-5 d-block fw-500">Contact For Support</span>
-                                        <h5 class="fw-500">+123 556 8824</h5>
+                                        <h5 class="fw-500">{{$web->phone}}</h5>
                                     </div>
                                 </a>
                             </li>
